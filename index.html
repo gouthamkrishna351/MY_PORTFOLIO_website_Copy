@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="icon" type="image/png" href="/assets/title-logo.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+<nav id="desktop-nav">
+  <div class="logo"> <span id="typed-text"></span></div>
+
+  <div>
+     <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+     </ul>
+  </div>
+</nav> 
+
+
+<nav id="hamburger-nav">
+ <div class="logo">Goutham Krishna</div>
+ <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+     <span></span>
+     <span></span>
+     <span></span>
+    </div>
+
+
+ <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+  </div>
+ </div>
+</nav>
+
+
+<section id="profile" class="profile-section">
+  <div class="section__pic-container">
+    <img src="./assets/profile-pic.JPG" alt="Goutham profile picture" class="profile-pic" />
+  </div>
+  <div class="section__text">
+    <p class="section__text__p1">Hello, I'm</p>
+    <h1 class="title">Goutham Krishna</h1>
+    <p class="section__text__p2">IT Professional</p>
+    
+    <div class="btn-container">
+      <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">DOWNLOAD RESUME</button>
+      <button class="btn btn-color-1" onclick="location.href='./#contact'">CONTACT INFO</button>
+    </div>
+
+    <div id="socials-container">
+      <a href="https://www.linkedin.com/in/goutham-krishnagh/" target="_blank">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" />
+      </a>
+      <a href="mailto:gouthamkrishna351@gmail.com" target="_blank">
+        <img src="./assets/email.png" alt="My email" class="icon" />
+      </a>
+    </div>
+    
+    <div class="bio">
+      <p>
+       I'm a IT professional with expertise in managing systems like Linux and Windows servers, handling cloud platforms like AWS and Azure, setting up networks, providing technical support, and managing virtual machines.
+        Additionally, I have skills in web development, scripting, virtualization, cybersecurity, and basic programming.
+        Feel free to connect with me on LinkedIn or my Email.
+      </p>
+    </div>
+    
+    <!--------------------vector art images as background-------------------------->
+    <div class="it-gallery">
+      <div class="image-grid">
+        <img src="./assets/vector-art-2.jpg" alt="Vector Art 1" class="gallery-image" />
+        
+        <!-- Add more vector art images as needed -->
+      </div>
+    </div>
+  </div>
+
+  
+</section>
+
+
+<section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+          src="./assets/about-pic1.jpg"
+          alt="Profile picture"
+          class="about-pic"
+        />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Education</h3>
+            <p>Computer Systems Technician Diploma, <br />Humber College, ON, Canada<br /></p>
+          
+        </div>
+            <div class="details-container">
+             <img
+              src="./assets/experience.png"
+              alt="Experience icon"
+              class="icon" />
+
+             <h3>Experienced in:</h3>
+             <P>AWS | Azure | VMWare | RedHat Linux | Windows Server O/S</P>
+
+            </div>
+
+            
+        </div>
+        <div class="text-container">
+            <p>
+                
+                
+                I am a dedicated and highly skilled professional specializing in information and communications technology. Holding a diploma in Computer Systems Technician - Information Technology Infrastructure and Services from Humber College, I am well-versed in the intricacies of IT.
+                
+                My educational journey has equipped me with a robust foundation in IT essentials, allowing me to navigate and thrive in the dynamic landscape of technology. Through this program, I have honed my skills, mastering various aspects of IT infrastructure and services.
+                
+                Beyond my formal education, I am deeply passionate about staying informed of the latest technological advancements and industry trends. I am committed to lifelong learning and professional development, continuously seeking opportunities to expand my knowledge and expertise.
+                
+            
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#experience'"
+  />
+
+</section>
+
+
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">MAIN SKILLS</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Linux Administration</h3>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Microsoft Windows Servers</h3>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Amazon Web Services(AWS) & Microsoft Azure</h3>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Computer Networking and Routing</h3>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Technical Support</h3>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Virtual Machine Management and Setup </h3>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">SKILLS</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>HTML & CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Python</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            
+            
+
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>VMWare ESXi & vSphere</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Shell Scripting</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>MySQL</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            
+
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Hypervisors</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Cybersecurity</h3>
+                <p>advanced</p>
+              </div>
+            </article>
+
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>C</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
+</section>
+
+<br>
+
+<section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/portfolio-website2.gif"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Portfolio Website</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button class="btn btn-color-1 project-btn" onclick="toggleTextBox()">More Info</button>
+              <div id="overlay"></div>
+
+              <div id="textbox">
+                  <div id="close-btn" onclick="closeTextBox()">X</div>
+                  <p><b>Welcome to my portfolio website!</b></p><br>
+                  <p>This website was meticulously crafted using a blend of HTML, CSS, and JavaScript to bring my vision to life.
+                     It's more than just a showcase of my work; it's a reflection of my dedication to craftsmanship and creativity.
+                      Currently, this site is hosted on GitHub Pages, giving it the accessibility and reliability it deserves. However, I'm continuously evolving, and soon
+                     I'll be migrating it to my own dedicated server, leveraging the power of Linux Server in a cloud environment like AWS or Azure for enhanced control, more features and scalability. 
+                     Stay tuned for even more exciting updates as this journey unfolds!
+                  </p>
+                  
+              </div>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/attend-app2.gif"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Attend App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              
+              <button class="btn btn-color-1 project-btn" onclick="toggleTextBox2()">More Info</button>
+              <div id="overlay"></div>
+
+              <div id="textbox2">
+                <div id="close-btn" onclick="closeTextBox2()">X</div>
+                   <p><b>AttenD (Under development)</b></p><br>
+                   <p>AttenD is an android application made using Flutter that  represents the culmination of innovative technology and practical utility, offering a transformative solution to the age-old challenge of attendance tracking.
+                     Developed as a capstone project, AttenD harnesses the power of Near Field Communication (NFC) to revolutionize the way attendance is recorded and managed.
+                     With AttenD, gone are the days of cumbersome manual entry and error-prone record-keeping. 
+                      Instead, users can effortlessly mark attendance with a simple tap, utilizing the seamless integration of NFC technology.
+                      This intuitive approach not only saves valuable time and resources but also ensures unparalleled accuracy and reliability. 
+                   </p>
+                  
+              </div>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/reporting-system2.gif"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Reporting System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              
+              <button class="btn btn-color-1 project-btn" onclick="toggleTextBox3()">More Info</button>
+              <div id="overlay"></div>
+
+              <div id="textbox3">
+                <div id="close-btn" onclick="closeTextBox3()">X</div>
+                   <p><b>Automated Server Monitoring and Reporting System for Linux operating system.</b></p><br>
+                   <p>An automated system that monitors various aspects of a Linux server's performance and generates detailed reports.
+                     This project involve creating scripts to collect data on system resource usage (CPU, memory, disk space, network traffic), service availability, and security logs. 
+                     The collected data will be processed and analyzed to detect anomalies or potential issues. 
+                    The system should also include alerting mechanisms to notify administrators of critical events or performance thresholds being exceeded.
+                   </p>
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+</section>
+
+
+<section id="contact">
+  <div class="container">
+    <span class="big-circle"></span>
+    <img src="img/shape.png" class="square" alt="" />
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="titled">Let's get in touch</h3>
+        <p class="text">
+          "Feel free to reach out and let's start a conversation – I'm excited to connect with you!"
+        </p>
+
+        <div class="info">
+          
+          <div class="information">
+            <img src="assets/email.gif" class="icon" alt="" />
+            <p><a href="mailto:gouthamkrishna351@gmail.com">gouthamkrishna351@gmail.com</a></p>
+          </div>
+          <div class="information">
+            <img src="assets/phone.gif" class="icon" alt="" />
+            <p>+1(782)778-0339</p>
+          </div>
+
+          <div class="information">
+            <img src="assets/linkedin-blue.png" class="icon" alt="" />
+            <p><a href="https://www.linkedin.com/in/goutham-krishnagh">LinkedIn</a></p>
+          </div>
+
+
+        </div>
+
+        <div class="social-media">
+          <div class="social-icons">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <h3 class="titled">Contact Me</h3>
+          <div class="input-container">
+            <input type="hidden" name="access_key" value="24c6096f-520a-4018-8eb1-3190741823e3">
+            <input type="text" name="name" class="input" />
+            <label for="">Your Name</label>
+            <span>Your Name</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" />
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" />
+            <label for="">Phone</label>
+            <span>Phone</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" class="input"></textarea>
+            <label for="">Message</label>
+            <span>Message</span>
+          </div>
+          <input type="submit" value="Send" class="btnn" />
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Goutham Krishna. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
